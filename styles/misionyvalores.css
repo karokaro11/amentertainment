@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+
+
+h1{
+    font-family: "Rubik Mono One", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 44;
+}
+
+
+h2{
+    font-family: "Passion One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3{
+    text-align: justify;
+  font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;  
+}
+
+h7{
+    text-align: justify;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+header{
+    width:100%;
+    height:360px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-image: url('../imagenes/portada.jpeg');
+    background-size: cover;
+    text-align: center;
+
+.titulos{
+color: #fff;
+}
+
+ 

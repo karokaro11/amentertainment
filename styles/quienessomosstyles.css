@@ -1,0 +1,32 @@
+h1,h2,h3,blockquote,p,main{
+
+margin:0;
+
+}
+
+h1{
+	font-family: "Kanit", sans-serif;
+  	font-weight: 600;
+  	font-style: normal;
+  	font-size: 40px;
+}
+
+blockquote{
+
+	font-family: "Philosopher", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 130%;
+    font-size: 18px;
+
+}
+
+h2{
+font-family: "Kanit", sans-serif;
+  	font-weight: 600;
+  	font-style: normal;
+  	font-size: 40px;
+
+
+}
+

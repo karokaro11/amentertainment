@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Próximos Conciertos</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #DAAAFF;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 1rem;
+        }
+        .concert {
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+            background-color: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .concert img {
+            width: 100%;
+            max-width: 200px;
+            border-top-left-radius: 8px;
+            border-bottom-left-radius: 8px;
+        }
+        .concert-info {
+            flex: 1;
+            padding: 1rem;
+        }
+        .concert-info h2 {
+            margin: 0 0 0.5rem;
+        }
+        .concert-info p {
+            margin: 0.5rem 0;
+        }
+        .concert-info .date {
+            font-weight: bold;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Próximos Conciertos</h1>
+    </header>
+    <div class="container">
+        <div class="concert">
+            <img src="./imagenes/robleis.jpeg" alt="ROBLEIS">
+            <div class="concert-info">
+                <h2>ROBLEIS</h2>
+                <p class="date">20 de enero, 2025</p>
+                <p>Lugar: Auditorio Nacional, Ciudad de México</p>
+                <p>Descripción: Ven a disfrutar de las increíbles presentaciones que Robleis tiene para ti en su "HURACAN TOUR".</p>
+            </div>
+        </div>
+        <div class="concert">
+            <img src="./imagenes/rose.jpeg" alt="Grupo 2">
+            <div class="concert-info">
+                <h2>ROSE</h2>
+                <p class="date">18 de marzo, 2025</p>
+                <p>Lugar: Arena Monterrey, Monterrey</p>
+                <p>Descripción: ¡No te pierdas el estreno en vivo de el nuevo album de Rose, "rosie"!</p>
+            </div>
+        </div>
+        <div class="concert">
+            <img src="./imagenes/xg.jpeg" alt="Grupo 3">
+            <div class="concert-info">
+                <h2>XG</h2>
+                <p class="date">26 de marzo, 2025</p>
+                <p>Lugar: Foro Sol, Ciudad de México</p>
+                <p>Descripción: Conoce las asombrosas presentaciones que las chicas traen para ti desde Japón.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
